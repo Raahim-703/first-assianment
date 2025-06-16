@@ -1,3 +1,12 @@
+* {
+    font-family: sans-serif;
+}
+
+/* shered style */
+.mt {
+    margin: 50px 100px;
+}
+
 /* nav style */
 nav {
     display: flex;
@@ -57,6 +66,33 @@ nav .nav-contain {
     margin: 30px 60px;
     gap: 100px;
 }
-.card-3{
+
+.card-3 {
     padding-bottom: 30px;
+}
+
+.box {
+    display: flex;
+    gap: 30px;
+}
+
+.box .box-container {
+    width: 30%;
+    padding: 30px 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.box .box-container a{
+    color: #000;
+}
+
+.html {
+    background-color: rgb(209, 161, 147);
+}
+
+.css {
+    background-color: rgb(192, 192, 215);
+}
+.js{
+    background-color: rgb(245, 245, 194);
 }
