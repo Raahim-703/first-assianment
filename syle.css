@@ -96,3 +96,17 @@ nav .nav-contain {
 .js{
     background-color: rgb(245, 245, 194);
 }
+
+/* box-target-contain */
+.box-target .box-target-contain{
+    border: 1px solid rgb(172, 166, 166);
+    padding:40px;
+    border-radius: 10px;
+}
+.box-target .box-target-contain a{
+    color: black;
+}
+.box-target .box-target-contain .target-text{
+    margin-top: -110px;
+    margin-left: 170px;
+}
