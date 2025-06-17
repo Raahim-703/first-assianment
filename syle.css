@@ -123,7 +123,7 @@ nav .nav-contain {
 } */
 .support-section {
     background-image: url("assets/handshake.jpg");
-    background-size:110% 100%;
+    background-size: 110% 100%;
     color: white;
     height: 300px;
     border-radius: 9px;
@@ -146,4 +146,25 @@ button {
 .support {
     text-align: center;
     padding-top: 45px;
+}
+
+/* footer-contain style */
+.footer-section {
+    background-color: rgb(239, 233, 221);
+}
+
+.footer-contain {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 100px 0px;
+    padding: 30px 0px;
+}
+
+.img img {
+    padding: 0px 10px;
+}
+/* inprise section */
+iframe{
+    border-radius: 10px;
+    border: 40px solid whitesmoke;
 }
